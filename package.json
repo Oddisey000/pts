@@ -4,7 +4,9 @@
   "description": "Application for automotive idustry. \"Plan and track system\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:css": "node-sass dev/sass/main.scss dev/css/style_dev.css",
+    "compress:css": "node-sass dev/fonts/open_sans.css dev/css/open_sans.css --output-style compressed",
+    "concat:css": "concat -o dev/css/vendors.css dev/css/vendors.css dev/css/open_sans.css"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,7 @@
   },
   "homepage": "https://github.com/Oddisey000/pts#readme",
   "devDependencies": {
+    "concat": "^1.0.3",
     "node-sass": "^4.12.0"
   }
 }

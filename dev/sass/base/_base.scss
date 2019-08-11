@@ -1,0 +1,22 @@
+//Reset all default browser's settings
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+//Page's background setting
+body {
+    background-image: linear-gradient(
+        to right bottom,
+        $color-primary-light,
+        $color-primary-dark
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: $color_grey-dark-2;
+    min-height: 100vh;
+}
