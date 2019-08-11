@@ -1,0 +1,2 @@
+#Ignore node_modules, it is can be easy recreate with command npm install
+node_modules/

@@ -1,0 +1,27 @@
+{
+  "name": "pts",
+  "version": "1.0.0",
+  "description": "Application for automotive idustry. \"Plan and track system\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oddisey000/pts.git"
+  },
+  "keywords": [
+    "automotive",
+    "plan",
+    "track"
+  ],
+  "author": "Vitalii Pertsovych",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oddisey000/pts/issues"
+  },
+  "homepage": "https://github.com/Oddisey000/pts#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
